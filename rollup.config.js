@@ -14,5 +14,6 @@ export default defineConfig({
             file: 'dist/index.esm.js'
         }
     ],
-    plugins: [typescript(), terser()]
+    plugins: [typescript(), terser()],
+    external: ['vue']
 })

@@ -1,6 +1,6 @@
 {
   "name": "@vdgalyns/utilities",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utilities",
   "type": "module",
   "main": "./dist/index.cjs.js",
@@ -26,5 +26,8 @@
     "rollup": "^4.9.1",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "vue": "^3.4.8"
   }
 }
